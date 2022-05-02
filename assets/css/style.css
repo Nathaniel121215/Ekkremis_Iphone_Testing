@@ -409,6 +409,7 @@ img {
 {
   display: flex;
   gap:15px;
+  border: 1px solid red;
 
   
 
@@ -830,3 +831,22 @@ main
 
 
 
+@media screen and (max-width: 500px)
+{
+.aboutus__img
+{
+  justify-content: center;
+  align-items: center;
+
+}
+
+.aboutus__imgs
+{
+
+  max-height: 240px;
+
+
+}
+
+
+}

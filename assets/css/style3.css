@@ -781,3 +781,18 @@ main
 
   
 }
+
+
+
+@media screen and (max-width: 500px)
+{
+.teamoneimg
+{
+  justify-content: center;
+  align-items: center;
+}
+.team__imgs
+{
+  max-height: 240px;
+}
+}
